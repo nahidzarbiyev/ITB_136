@@ -1,0 +1,62 @@
+/* h1{
+    background-color: brown;
+}
+h1{
+    background-color: blueviolet;
+}
+#text{
+    background-color: aquamarine;
+}
+.class{
+    background-color: chartreuse !important;
+} */
+
+/* .wrapper{
+    color: red;
+    background-color: blue;
+    text-decoration: line-through;
+}
+
+.text-sm{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    background-color: blueviolet;
+    max-width: 500px;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: space-around;
+   align-items: center;
+}
+.wrapper>div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    /* margin: 0 4px  5px; */
+
+}
+
+
+/* span{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+p{
+    display: inline;
+} */
