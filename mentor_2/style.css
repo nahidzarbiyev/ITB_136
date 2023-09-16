@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,100;1,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+}
+header {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.input {
+  position: relative;
+  max-width: 576px;
+  width: 100%;
+}
+
+.search{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color:#000;
+    opacity: 0.4;
+}
+
+
+
+input {
+  width: 100%;
+  height: 100%;
+  padding: 12px 45px;
+  outline: none;
+  background-color: #f0f0f0;
+  border: transparent;
+  border-radius: 62px;
+}
+
+.accounts{
+    display: flex;
+    gap: 14px;
+    font-size: 24px;
+}
+
+
+.new-arrivals h1{
+    padding: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+.new-arrivals .arrivals{
+    display: flex;
+    gap: 28px;
+}
+.arrivals .card {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.arrivals .card h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.card img{
+    border-radius: 12px;
+}
+.card i{
+    color: #FFC633
+}
+
+.card span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 16px 64px;
+outline: none;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background-color: #fff;
+border-radius: 30px;
+}
